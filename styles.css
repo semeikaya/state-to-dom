@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: aquamarine;
+    padding: 0px;
+}
+#main {
+    display: flex;
+    width: 50%;
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    padding: 1%;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+}
+#input {
+    width: 92%;
+}
+#list {
+    margin: auto;
+    width: 50%;
+    height: 1080px;
+    background-color: antiquewhite;
+    padding: 10px;
+}
