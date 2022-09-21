@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: "Gilroy";
 }
 body {
     background-color: aquamarine;
@@ -13,14 +14,37 @@ body {
     padding: 1%;
     justify-content: space-evenly;
     margin-bottom: 10px;
+    border-radius: 20px 20px;
 }
 #input {
-    width: 92%;
+    font-size: 20px;
+    width: 90%;
+    border: 1px solid rgb(80, 143, 231);
+    border-radius: 10px 10px;
 }
 #list {
     margin: auto;
     width: 50%;
     height: 1080px;
-    background-color: antiquewhite;
-    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border-radius: 25px 25px;
+}
+.mark {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px;
+    font-size: 25px;
+    background-color: aliceblue;
+    padding: 10px 15px 10px 30px;
+    margin-top: 20px;
+    align-items: center;
+}
+.del {
+    font-size: 20px;
+  border-radius: 50%;
+border: solid rgb(205, 99, 77);
+background-color: rgb(205, 99, 77);
+width: 30px;
+height: 30px;
 }
